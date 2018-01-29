@@ -1,4 +1,0 @@
-{
-  // The CMake generator to use
-  "cmake.generator": "Xcode",
-}
