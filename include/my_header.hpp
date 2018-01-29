@@ -47,5 +47,23 @@ double exo4(double a, double b, double c) {
 	return max;
 }
 
+double exo5(double tt) {
+
+	double remise;
+
+	if (tt > 300) {
+		remise = tt * 1.08;
+	} else {
+		if (tt > 100) {
+			remise = tt * 1.05;
+		}
+		else {
+			remise = tt;
+		}	
+	}
+
+	return remise;
+}
+
 #endif
 
