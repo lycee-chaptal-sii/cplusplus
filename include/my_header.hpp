@@ -4,6 +4,7 @@
 #define MY_HEADER_HPP
 
 #include <cmath>
+#include <algorithm>
 
 double exo1(double rayon) {
 	
@@ -30,11 +31,9 @@ double exo3(double rayon2) {
 	return aire;
 }
 
-double exo4(double a, double b, double c) {
+double exo4(double a, double b, double c) {	
 
-	double max;
-
-	if (a > b && a > c) {
+	/*if (a > b && a > c) {
 		max = a;
 	}
 	if (b > a && b > c) {
@@ -42,9 +41,10 @@ double exo4(double a, double b, double c) {
 	}
 	if (c > a && c > b) {
 		max = c;
-	}
+	}*/
 
-	return max;
+	//Simpler :
+	return std::max(std::max(a, b), c);
 }
 
 double exo5(double tt) {
