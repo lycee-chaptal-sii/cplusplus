@@ -30,5 +30,22 @@ double exo3(double rayon2) {
 	return aire;
 }
 
+double exo4(double a, double b, double c) {
+
+	double max;
+
+	if (a > b && a > c) {
+		max = a;
+	}
+	if (b > a && b > c) {
+		max = b;
+	}
+	if (c > a && c > b) {
+		max = c;
+	}
+
+	return max;
+}
+
 #endif
 

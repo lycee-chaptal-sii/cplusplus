@@ -7,6 +7,7 @@ int main()
 {
 	double r1 = 0.0;
 	double v1 = 0.0;
+	double max = 0.0;
 
 	r1 = exo1(10.0);
 
@@ -15,6 +16,9 @@ int main()
 	exo2(20, 10);
 
 	v1 = exo3(10.0);
+
+	max = exo4(10, 20, 30);
+	printf("%lf", max);
 
     std::cout << "Hello World!" << std::endl;
 
