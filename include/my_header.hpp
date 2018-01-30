@@ -31,7 +31,7 @@ double exo3(double rayon2) {
     return aire;
 }
 
-double exo4(double a, double b, double c) {	
+double exo4(double a, double b, double c) { 
    
     double max;
 
@@ -61,7 +61,7 @@ double exo5(double tt) {
         }
         else {
             remise = tt;
-        }	
+        }  
     }
 
     return remise;
