@@ -61,7 +61,7 @@ double exo5(double tt) {
         }
         else {
             remise = tt;
-        }  
+        }
     }
 
     return remise;
