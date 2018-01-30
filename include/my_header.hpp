@@ -45,7 +45,7 @@ double exo4(double a, double b, double c) {
         max = c;
     }
 
-	return max;
+    return max;
     //return std::max(std::max(a, b), c);
 }
 
