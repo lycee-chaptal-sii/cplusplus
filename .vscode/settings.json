@@ -1,10 +1,12 @@
 {
-    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
     "C_Cpp.configurationWarnings": "Disabled",
     // The preferred CMake generator(s) to use when configuring (tried in order of listing)
     "cmake.preferredGenerators": [
         "Visual Studio 15 2017",
         "Ninja",
         "Unix Makefiles"
-]
+],
+"files.associations": {
+    "variant": "cpp"
+}
 }
