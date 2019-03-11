@@ -7,7 +7,7 @@ project (HELLO CXX)
 include(CMakeToolsHelpers OPTIONAL)
 
 # Specify the C++ Standard version to use.
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Specify where to put all the RUNTIME target files when built.
